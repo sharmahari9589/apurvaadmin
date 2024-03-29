@@ -1,0 +1,30 @@
+/* Add your styles here */
+
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  margin: 5px;
+  position: relative;
+}
+
+.image-container img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.image-container button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
